@@ -22,7 +22,7 @@ function tentarSenha() {
     <div>WIP Enigmas... (fala rapaziada!)</div>
     <div class="text-sm text-gray-500 mb-5 w-fit">
       <i>
-        <strong>Aviso</strong>: não inspecione a página para resolver, pois isso é trapaça.
+        <strong>Aviso</strong>: não utilize o "Inspecionar" a página para resolver, pois isso é trapaça.
         <strong>explore</strong>
         a <strong class="underline">UI</strong> antes de tudo, ela vai te <strong class="cursor-pointer"
           @click="toggleLight" v-text="!light ? 'ocultar' : 'mostrar'"></strong> o que
