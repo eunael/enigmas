@@ -18,7 +18,7 @@ function tentarSenha() {
 </script>
 
 <template class="">
-  <div :class="`bg-${light ? 'white' : 'black'}`" class="h-screen flex flex-col">
+  <div class="h-screen flex flex-col" :class="{ 'bg-white': light, 'bg-black': !light }">
     <div>WIP Enigmas... (fala rapaziada!)</div>
     <div class="text-sm text-gray-500 mb-5 w-fit">
       <i>
