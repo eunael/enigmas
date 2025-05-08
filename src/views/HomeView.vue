@@ -83,7 +83,7 @@ function tentarSenha() {
         class="bg-black text-gray-50 text-nowrap absolute w-full h-screen flex justify-center items-center"
       >
         <div class="text-center font-bold px-4">
-          <p class="text-xl mb-5 w-full max-w-md text-wrap">✋ Antes, por favor desative qualquer extenção de dark mode e depois clique em "OK"</p>
+          <p class="text-xl mb-5 w-full max-w-md text-wrap">✋ Antes, por favor desative qualquer extensão de dark mode e depois clique em "OK"</p>
           <button class="px-4 py-2 bg-transparent border border-white cursor-pointer" @click="darkModeOff = true">OK</button>
         </div>
       </div>
