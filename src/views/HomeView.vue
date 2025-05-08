@@ -77,7 +77,8 @@ function tentarSenha() {
             target="_blank">eunael</a>.
     </div>
 
-    <div
+    <Transition name="fade">
+      <div
         v-if="!darkModeOff"
         class="bg-black text-gray-50 text-nowrap absolute w-full h-screen flex justify-center items-center"
       >
@@ -86,5 +87,20 @@ function tentarSenha() {
           <button class="px-4 py-2 bg-transparent border border-white cursor-pointer" @click="darkModeOff = true">OK</button>
         </div>
       </div>
+    </Transition>
   </div>
 </template>
+
+<style scoped>
+  .fade-enter-active {
+    transition: opacity 0.5s ease;
+  }
+  .fade-leave-active {
+    transition: opacity 3s ease;
+  }
+
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+  }
+</style>
