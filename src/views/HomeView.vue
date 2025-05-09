@@ -9,7 +9,7 @@ function toggleLight() {
   light.value = !light.value
 }
 
-function tentarSenha() {
+function tryPassword() {
   msg.value = '( se está vendo esta mensagem, parabéns! vc não acertou a senha, mas calma é pq eu ainda não terminei o projeto. haverá mais em breve, então, até logo! )'
 
   setTimeout(() => {
@@ -31,7 +31,7 @@ function tentarSenha() {
     </div>
 
     <div class="text-white w-full max-w-md mx-auto grow flex justify-center items-center border border-white mb-5">
-      <form class="select-none" @submit.prevent="tentarSenha">
+      <form class="select-none" @submit.prevent="tryPassword">
         <p class="text-black mb-5 text-2xl">Informe a senha:</p>
         <div class="flex gap-3 mb-5 w-fit mx-auto">
           <input
