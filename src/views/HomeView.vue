@@ -10,11 +10,11 @@ function toggleLight() {
 }
 
 function tentarSenha() {
-  msg.value = '( se está vendo essa mensagem, pabéns, vc não acertou a senha! mas calma, é pq eu ainda não terminei. haverá mais em breve, então, até logo! )'
+  msg.value = '( se está vendo esta mensagem, parabéns! vc não acertou a senha, mas calma é pq eu ainda não terminei o projeto. haverá mais em breve, então, até logo! )'
 
   setTimeout(() => {
     msg.value = ''
-  }, 12000);
+  }, 15000);
 }
 </script>
 
